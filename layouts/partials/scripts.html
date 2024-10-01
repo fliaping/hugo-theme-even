@@ -90,7 +90,7 @@
   {{ if .Site.Params.mathjaxUseLocalFiles -}}
     <script type="text/javascript" async src="{{ "lib/mathjax/es5/tex-mml-chtml.js" | relURL }}"></script>
   {{- else -}}
-  <script id="MathJax-script" async src="https://cdn.jsdmirror.com/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script id="MathJax-script" async src="https://fastly.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   {{- end }}
 {{- end }}
 
